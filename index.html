@@ -47,39 +47,40 @@
       margin-bottom: 1rem;
     }
 
-    .sabores {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 2rem;
-    }
+  .sabores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
+  gap: 2rem;
+}
 
-    .sabor {
-      background: #fff;
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
+.sabor {
+  background: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
 
-    .sabor:hover {
-      transform: translateY(-5px);
-    }
+.sabor:hover {
+  transform: translateY(-5px);
+}
 
-    .sabor img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-    }
+.sabor img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
 
-    .sabor h3 {
-      margin: 0.5rem 0;
-    }
+.sabor h3 {
+  margin: 0.5rem 0;
+}
 
-    .sabor p {
-      padding: 0 1rem 1rem;
-      font-size: 0.95rem;
-    }
+.sabor p {
+  padding: 0 1rem 1rem;
+  font-size: 0.95rem;
+}
 
     .beneficios-cards {
       display: grid;
@@ -353,7 +354,7 @@
   <div class="condicoes-cards">
     <div class="card"><span>💸</span><p><strong>Preço unitário:</strong><br>R$6,00</p></div>
     <div class="card"><span>📈</span><p><strong>Revenda sugerida:</strong><br>R$ 9,00</p></div>
-    <div class="card"><span>🍰</span><p><strong>Pedido mínimo:</strong><br>25 bolos no pote</p></div>
+    <div class="card"><span>🍰</span><p><strong>Pedido mínimo:</strong><br>25 bolos no pote (sabores sortidos)</p></div>
     <div class="card"><span>🚚</span><p><strong>Entrega:</strong><br>Consulte taxa e disponibilidade</p></div>
     <div class="card"><span>🔐</span><p><strong>Pagamento:</strong><br>Antecipado via Pix</p></div>
   </div>
